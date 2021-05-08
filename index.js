@@ -13,9 +13,7 @@ class Infinity {
             method: 'POST',
             body: JSON.stringify(body),
             headers: { 'Content-Type': 'application/json', 'authorization': this.auth },
-        }).then(async res => {
-            response(await res.json())
-        })
+        }).then(async (res) => {console.log(await res.json())})
     }
 }
 
