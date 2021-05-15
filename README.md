@@ -16,16 +16,6 @@ or
 
 ---
 
-## Hard Coded Install
-Append the Line below to your package.json
-```
-    "infinityapi.js": "^1.0.0",
-```
-
-• Save and profit
-
----
-
 ## Ratelimits
 You can POST Server and Shard Count stats 3 Times every 5 minutes
 
