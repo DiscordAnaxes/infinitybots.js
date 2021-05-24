@@ -1,31 +1,31 @@
 {
-    "name": "infinityapi.js",
-    "version": "1.0.0",
-    "description": "The main wrapper for Infinity Bot List to POST your Server and Shard Count!!",
-    "main": "index.js",
-    "dependencies": {
-        "node-fetch": "^2.6.0"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/InfinityBotList/infinitybots.js.git"
-    },
-    "author": "InfinityBotList",
-    "creator": "TheRealToxicDev",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/InfinityBotList/infinitybots.js/issues"
-    },
-    "homepage": "https://github.com/InfinityBotList/infinitybots.js#readme",
-    "keywords": [
-        "Discord",
-        "Bot",
-        "List",
-        "API",
-        "Wrapper"
-    ]
+  "name": "infinityapi.js",
+  "version": "1.0.3",
+  "description": "The main wrapper for Infinity Bot List to POST your Server and Shard Count!!",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InfinityBotList/infinitybots.js.git"
+  },
+  "author": "InfinityBotList",
+  "creator": "TheRealToxicDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InfinityBotList/infinitybots.js/issues"
+  },
+  "homepage": "https://github.com/InfinityBotList/infinitybots.js#readme",
+  "keywords": [
+    "Discord",
+    "Bot",
+    "List",
+    "API",
+    "Wrapper"
+  ]
 }
