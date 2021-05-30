@@ -6,7 +6,7 @@ class Infinity {
     constructor(id, auth) {
         this.id = id
         this.auth = auth
-        this.base_url = 'https://api.infinitybotlist.com/'
+        this.base_url = 'https://api.infinitybotlist.com'
     }
 
     /** POST STATS TO A BOT ON OUR WEBSITE/API */
