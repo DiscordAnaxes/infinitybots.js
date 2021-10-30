@@ -1,2 +1,2 @@
-github: InfinityBotList
-custom: api.infinitybotlist.com
+github: [InfinityBotList, TheRealToxicDev]
+custom: [api.infinitybotlist.com, https://www.npmjs.com/package/infinityapi.js, https://docs.infinitybotlist.com/libraries/javascript/]
