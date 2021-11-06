@@ -1,4 +1,4 @@
-# Infinity Bot List API Wrapper
+# Infinity Bots API Wrapper
 The official NPM Module for interacting with the Infinity Bots API
 
 ---
