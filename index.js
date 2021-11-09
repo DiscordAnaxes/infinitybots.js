@@ -14,7 +14,7 @@ class Infinity {
 
         let body = shards ? { 'servers': servers, 'shards': shards } : { 'servers': servers, 'shards': 0 }
 
-        await fetch (`${this.base_url}/bot/${this.id}`, {
+        await fetch (`${this.base_url}/bots/${this.id}`, {
             method: 'POST',
             body: JSON.stringify(body),
             headers: { 'Content-Type': 'application/json', 'authorization': this.auth },
@@ -26,7 +26,7 @@ class Infinity {
 
         if (!botID) throw new Error('[IBL-API : 400] Missing Bot ID, Should be a valid String or Snowflake.');
 
-        await fetch(`${this.base_url}/bot/${botID}`, {
+        await fetch(`${this.base_url}/bots/${botID}`, {
             method: 'GET',
             headers: {"Content-Type": "application/json"},
         }).then(async resp => {response(await resp.json())})
@@ -40,7 +40,7 @@ class Infinity {
         await fetch(`${this.base_url}/user/${userID}`, {
             method: 'GET',
             headers: {"Content-Type": "application/json"},
-        }).then(async (resp => {response(await res.json())}))
+        }).then(async (resp => {response(await resp.json())}))
     }
 }
 
